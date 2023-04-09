@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*EXTRAS*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{font-size:3.5em;}
+h2{font-size:2.7em;}
+h3{font-size: 2em;}
+p{font-size:1.20em;}
+
+
+
+/*BODY*/
+
+body{
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/*HEADER, TEXTO, FONDO DE PANTALLA Y NAV*/
+
+.fondodepantalla{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+),url(../Imagenes/fondos/banner2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+
+}
+
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0;
+padding: 25px 30px;
+margin-top: auto;
+}
+
+header nav{
+display: flex;
+text-align: center;
+padding-top: 10px;
+}
+
+header a{
+padding: 5px 12px;
+text-decoration: none;
+font-weight: bold;
+color: white;
+}
+
+header a:hover{
+color: red;
+}
+
+header .logo{
+font-weight: bold;
+color:white;
+font-size: 1.6em;
+}
+
+/*HERO Y BOTON*/
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    color: white;
+}
+
+#hero h1{
+    margin: 0;
+}
+
+
+button{
+    margin-top: 20px;
+   font-size: 1.2em;
+   font-weight: bold;
+   padding: 10px 20px;
+   border-radius: 20px;
+   border: 1px solid;
+   color: white;
+   background-color:rgb(74, 126, 163) ;
+}
+
+button:hover{
+    background-color:rgb(62, 106, 136)  ;
+}
+
+/*MAPA*/
+
+#mapa .container{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#mapa .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*FOOTER*/
+
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d ;
+    margin-top: 200px;
+}
+
+
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    text-align: center;
+    color: white;
+}
+
+
+.pie-pagina .grupo-2{
+    background-color: #0a141d;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
